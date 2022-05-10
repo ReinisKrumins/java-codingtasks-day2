@@ -11,13 +11,10 @@ public class SixthTask {
         System.out.print("Enter second number- ");
         int secondNumber = sc6.nextInt();
 
-        if(firstNumber == secondNumber){
+        if((firstNumber == secondNumber || firstNumber<0 && secondNumber>0 || firstNumber > 100 && secondNumber >100)){
             System.out.println("true");
-        }else if(firstNumber < 0 && secondNumber > 0){
-            System.out.println("true");
-        }else if(firstNumber > 100 && secondNumber > 100){
-            System.out.println("true");
-        }else{
+        }
+        else {
             System.out.println("false");
         }
     }
