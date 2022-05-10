@@ -49,7 +49,7 @@ public class Main {
         if(isEven % 2 == 0 || isEven == 0){
             System.out.println("True");
         }else{
-            System.out.println("Talse");
+            System.out.println("False");
         }
 
         /*
@@ -61,7 +61,7 @@ public class Main {
         int isOdd = sc4.nextInt();
 
         if(isOdd % 2 == 0 || isOdd == 0){
-            System.out.println("Talse");
+            System.out.println("False");
         }else{
             System.out.println("True");
         }
