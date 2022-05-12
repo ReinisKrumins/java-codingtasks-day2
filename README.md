@@ -1,1 +1,1 @@
-# Accenture bootcamp day 2 coding tasks
+# Accenture Java bootcamp day 2 coding tasks
